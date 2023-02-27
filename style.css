@@ -32,15 +32,20 @@ body {
 
 nav img {
     width: 13em;
-    padding-top: 1.5em;
+    padding-top: 1.5em;       
 }
 
 main {
     display: flex;
     align-items: center;
     gap: 6.25em;
+    padding-top: 8em;
     /* space between component in flex */
 
+}
+
+.text {
+    margin-top: -6.5em;
 }
 
 
@@ -77,6 +82,7 @@ main {
 
 .social {
     text-align: right;
+    margin-top: 5em;
 }
 
 .social a i {
@@ -122,13 +128,17 @@ main {
     color:  hsl(300, 69%, 71%);
 }
 
+footer{
+    margin-top: 5%;
+}
+
 @media only screen and (max-width: 1024px) {
     .pic img {
         width: 100%;
     }
 
     footer {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
 
@@ -139,6 +149,9 @@ main {
         text-align: center;
     }
 
+    .text {
+        margin-top: 2em;
+    }
     .text h1 {
         font-size: 1.625rem;
     }
@@ -149,6 +162,19 @@ main {
     }
 
     footer{
-        margin-top: 50%;
+        margin-top: 70%;
     }
 }
+
+@media only screen and (max-width: 375px){
+    footer{
+        margin-top: 150%;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    footer {
+        margin-top: 200%;
+    }
+}
+
